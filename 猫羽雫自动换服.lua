@@ -32,7 +32,15 @@ local targetItems = {
     "Diamond",
     "Void Gem",
     "Dark Matter Gem",
-    "Rollie"
+    "Rollie"，
+    "NextBot Grenade",
+    "Nuclear Missile Launcher",
+    "Suitcase Nuke",
+    "Car",
+    "Helicopter",
+    "Trident",
+    "Golden Cup",
+    "Easter Basket"
 }
 
 local function ShowNotification(text)
