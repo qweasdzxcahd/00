@@ -32,22 +32,14 @@ local targetItems = {
     "Diamond",
     "Void Gem",
     "Dark Matter Gem",
-    "Rollie"，
-    "NextBot Grenade",
-    "Nuclear Missile Launcher",
-    "Suitcase Nuke",
-    "Car",
-    "Helicopter",
-    "Trident",
-    "Golden Cup",
-    "Easter Basket"
+    "Rollie"
 }
 
 local function ShowNotification(text)
     game:GetService("StarterGui"):SetCore(
         "SendNotification",
         {
-            Title = "猫羽雫脚本提示",
+            Title = "老鼠脚本",
             Text = text,
             Duration = 5
         }
@@ -159,7 +151,7 @@ local function AutoFarmBank()
     end
 end
 
-ShowNotification("猫羽雫脚本启动 - 优先物品拾取")
+ShowNotification("老鼠脚本启动")
 
 local itemsFinished = AutoPickItem()
 
